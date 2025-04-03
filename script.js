@@ -111,7 +111,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <h4>${exp.company}</h4>
                 <p class="duration">📅 ${exp.duration}</p>
                 <ul>
-                    ${exp.details.map(d => `<li>• ${d}</li>`).join('')}
+                    ${exp.details.map(d => `<li>${d}</li>`).join('')}
                 </ul>
             </div>`;
     });
@@ -124,7 +124,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <h3>${proj.title}</h3>
                 <p class="tech">⚙️ ${proj.tech}</p>
                 <ul>
-                    ${proj.details.map(d => `<li>• ${d}</li>`).join('')}
+                    ${proj.details.map(d => `<li>${d}</li>`).join('')}
                 </ul>
             </div>`;
     });
@@ -136,7 +136,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <div class="skill-category">
                 <h4>${category} 🛠️</h4>
                 <ul>
-                    ${items.map(item => `<li>• ${item}</li>`).join('')}
+                    ${items.map(item => `<li>${item}</li>`).join('')}
                 </ul>
             </div>`;
     });

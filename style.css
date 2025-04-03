@@ -196,11 +196,11 @@ footer {
         flex-direction: column;
         text-align: center;
     }
-    
+
     .skill-categories {
         grid-template-columns: 1fr;
     }
-    
+
     .social-links {
         justify-content: center;
     }
