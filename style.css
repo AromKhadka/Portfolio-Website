@@ -197,6 +197,7 @@ footer {
         text-align: center;
     }
 
+
     .skill-categories {
         grid-template-columns: 1fr;
     }
@@ -205,3 +206,12 @@ footer {
         justify-content: center;
     }
 }
+
+    
+    .skill-categories {
+        grid-template-columns: 1fr;
+    }
+    
+    .social-links {
+        justify-content: center;
+    }
