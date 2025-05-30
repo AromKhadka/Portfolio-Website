@@ -191,6 +191,22 @@ footer {
     border-radius: 10px;
 }
 
+.repo-button {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.6rem 1rem;
+  background: var(--brown);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background 0.3s ease;
+}
+
+.repo-button:hover {
+  background: #8a3e16;
+}
+
+
 @media (max-width: 768px) {
     .profile-header {
         flex-direction: column;
