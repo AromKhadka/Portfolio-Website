@@ -1,0 +1,37 @@
+{
+  "grade9": [
+    { "chapter": "Computer System",                        "file": null },
+    { "chapter": "Number System",                          "file": null },
+    { "chapter": "Block Programming",                      "file": null },
+    { "chapter": "Web Technology",                         "file": null },
+    { "chapter": "Internet & Social Media",                "file": null },
+    { "chapter": "Cyber Security & Digital Citizenship",   "file": null },
+    { "chapter": "Programming Concept (Python)",           "file": null }
+  ],
+  "grade10": [
+    { "chapter": "Computer Network & Communication",       "file": "assets/notes/grade9/Computer Network & Communication.pdf" },
+    { "chapter": "Database Management System",             "file": null },
+    { "chapter": "Multimedia",                             "file": null },
+    { "chapter": "Programming with Python",                "file": null },
+    { "chapter": "AI & Contemporary Technology",           "file": null }
+  ],
+  "grade11": [
+    { "chapter": "Computer System",                        "file": null },
+    { "chapter": "Number System & Boolean Logic",          "file": null },
+    { "chapter": "Computer Software and Operating System", "file": null },
+    { "chapter": "Application Package",                    "file": null },
+    { "chapter": "Programming Concepts & Logics",          "file": null },
+    { "chapter": "Web Technology I",                       "file": null },
+    { "chapter": "Multimedia",                             "file": null },
+    { "chapter": "Information Security and Cyber Law",     "file": null }
+  ],
+  "grade12": [
+    { "chapter": "DBMS Concept",                           "file": null },
+    { "chapter": "Data Communication & Networking",        "file": null },
+    { "chapter": "Web Technology II",                      "file": null },
+    { "chapter": "Programming II",                         "file": null },
+    { "chapter": "Object-Oriented Programming",            "file": null },
+    { "chapter": "Software Process Model",                 "file": null },
+    { "chapter": "Recent Trends in Technology",            "file": null }
+  ]
+}

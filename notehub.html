@@ -1,0 +1,1229 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>NoteHub — by Arom Khadka</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+</head>
+<body class="notehub-page">
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-brand"><a href="index.html">AK<span class="dot">.</span></a></div>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html#home">Home</a></li>
+      <li><a href="index.html#about">About</a></li>
+      <li><a href="index.html#skills">Skills</a></li>
+      <li><a href="index.html#experience">Experience</a></li>
+      <li><a href="index.html#projects">Projects</a></li>
+      <li><a href="index.html#github">GitHub</a></li>
+      <li><a href="notehub.html" class="notehub-link active">NoteHub</a></li>
+      <li><a href="index.html#contact">Contact</a></li>
+    </ul>
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+      <span class="theme-icon">◐</span>
+    </button>
+  </nav>
+
+  <!-- ===== NOTEHUB HERO ===== -->
+  <section class="notehub-hero">
+    <div class="notehub-hero-content">
+      <span class="notehub-badge">📚 Free Study Materials</span>
+      <h1>Note<span class="accent">Hub</span></h1>
+      <p>Curated computer science notes, study guides, and learning resources for students in Grades 9–12. Crafted with clarity, depth, and practical examples.</p>
+      <div class="notehub-search">
+        <input type="text" id="noteSearch" placeholder="Search topics, chapters, grades..." />
+        <button class="btn btn-primary">Search</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== GRADE TABS ===== -->
+  <section class="section" id="notes">
+    <div class="container">
+      <div class="grade-tabs">
+        <button class="grade-tab active" data-grade="grade9">Grade 9</button>
+        <button class="grade-tab" data-grade="grade10">Grade 10</button>
+        <button class="grade-tab" data-grade="grade11">Grade 11</button>
+        <button class="grade-tab" data-grade="grade12">Grade 12</button>
+      </div>
+
+      <!-- Notes will be rendered here by notes.js -->
+      <div id="notesContainer" class="notes-container">
+        <div class="notes-loading">Loading notes...</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= MICRO SYLLABUS SECTION ================= -->
+<section class="section section-alt" id="syllabus">
+  <div class="container">
+
+    <div class="section-header">
+      <span class="section-tag">Structured Learning</span>
+      <h2 class="section-title">Micro Syllabus</h2>
+      <p class="section-subtitle">
+        Official NEB Computer Science syllabus organized grade-wise.
+      </p>
+    </div>
+
+    <!-- ========================= -->
+    <!-- GRADE 9 MICRO SYLLABUS -->
+    <!-- ========================= -->
+
+    <div class="micro-card">
+
+      <div class="micro-header">
+        <h3>Grade 9 Microsyllabus</h3>
+        <p>Total Working Hours: Theory (64) + Practical (64)</p>
+      </div>
+
+      <!-- Chapter 1 -->
+      <div class="micro-unit">
+        <div class="micro-unit-top">
+          <h4>1. Computer System</h4>
+          <span>15 Theory + 6 Practical</span>
+        </div>
+
+        <div class="micro-preview">
+          <p><strong>1.1 Introduction to Computer Systems:</strong></p>
+
+          <ul>
+            <li>1.1.1 Definition and features of computer system</li>
+            <li>1.1.2 Application areas of computer systems</li>
+            <li>1.1.3 Functions of computer system (IPOS)</li>
+          </ul>
+        </div>
+
+        <div class="micro-hidden">
+
+          <ul>
+            <li><strong>1.2 Input Devices:</strong> Mouse, Keyboard, Joystick, Microphone, Scanner, Webcam, Touchscreen, Touchpad</li>
+
+            <br>
+
+            <li><strong>1.3 Central Processing Unit (CPU)</strong></li>
+            <li>1.3.1 Function of the CPU</li>
+            <li>1.3.2 Components of CPU: Control Unit, ALU and Memory Unit</li>
+
+            <br>
+
+            <li><strong>1.4 Motherboard and Data Bus</strong></li>
+            <li>1.4.1 Role of motherboard in connecting components</li>
+            <li>1.4.2 Importance of data bus in data transfer</li>
+
+            <br>
+
+            <li><strong>1.5 Memory (Primary and Secondary)</strong></li>
+            <li>1.5.1 Definition and function of memory</li>
+            <li>1.5.2 Units of memory measurement</li>
+            <li>1.5.3 Types of memory and comparison</li>
+            <li>1.5.4 RAM, ROM, Cache, Register</li>
+            <li>1.5.5 HDD, SSD, CD/DVD, Flash Memory</li>
+            <li>1.5.6 Functions and characteristics of memory</li>
+
+            <br>
+
+            <li><strong>1.6 Output Devices</strong></li>
+            <li>1.6.1 Overview of output devices</li>
+            <li>1.6.2 LED and LCD Monitor</li>
+            <li>1.6.3 Laser, Inkjet, Dot Matrix and 3D Printer</li>
+            <li>1.6.4 USB/Type C, HDMI, VGA, Ethernet, Audio Ports</li>
+
+            <br>
+
+            <li><strong>1.7 Computer Software</strong></li>
+            <li>1.7.1 Concept and types of software</li>
+            <li>1.7.2 Open source and proprietary software</li>
+            <li>1.7.3 System software vs Application software</li>
+            <li>1.7.4 Mobile and Web Application</li>
+
+            <br>
+
+            <li><strong>Practical Tasks</strong></li>
+            <li>a. Demonstrate computer system and parts</li>
+            <li>b. Demonstrate input/output and storage devices</li>
+            <li>c. Connect peripheral devices using ports</li>
+          </ul>
+
+        </div>
+
+        <button class="micro-btn">View More</button>
+      </div>
+
+      <!-- Chapter 2 -->
+      <div class="micro-unit">
+        <div class="micro-unit-top">
+          <h4>2. Number System</h4>
+          <span>6 Theory + 1 Practical</span>
+        </div>
+
+        <div class="micro-preview">
+          <ul>
+            <li>2.1 Concept of Number System</li>
+            <li>2.2 Binary Addition and Subtraction</li>
+            <li>2.3 Number Conversion</li>
+          </ul>
+        </div>
+
+        <div class="micro-hidden">
+
+          <ul>
+            <li>2.3.1 Decimal to Binary, Octal and Hexadecimal</li>
+            <li>2.3.2 Binary, Octal and Hexadecimal to Decimal</li>
+            <li>2.3.3 Binary to Hexadecimal and vice versa</li>
+
+            <br>
+
+            <li><strong>Practical Task</strong></li>
+            <li>a. Demonstrate conversion using online tools or apps</li>
+          </ul>
+
+        </div>
+
+        <button class="micro-btn">View More</button>
+      </div>
+
+      <!-- Chapter 3 -->
+      <div class="micro-unit">
+        <div class="micro-unit-top">
+          <h4>3. Block Programming</h4>
+          <span>6 Theory + 14 Practical</span>
+        </div>
+
+        <div class="micro-preview">
+          <ul>
+            <li>3.1 Concept of block programming</li>
+            <li>3.2 Introduction to Scratch</li>
+            <li>3.3 Components of Scratch</li>
+          </ul>
+        </div>
+
+        <div class="micro-hidden">
+
+          <ul>
+            <li>3.4 Concept of Microbit</li>
+            <li>3.5 Arduino and UNO</li>
+
+            <br>
+
+            <li><strong>Practical Tasks</strong></li>
+            <li>a. Demonstrate basic Scratch programs</li>
+            <li>b. Create simple Scratch games</li>
+            <li>c. Demonstrate coding simulation tools</li>
+            <li>d. Show Microbit and Arduino simulators</li>
+
+            <br>
+
+            <li><strong>Project Work</strong></li>
+            <li>a. Create a storytelling or game project in Scratch</li>
+          </ul>
+
+        </div>
+
+        <button class="micro-btn">View More</button>
+      </div>
+
+      <!-- Chapter 4 -->
+      <div class="micro-unit">
+        <div class="micro-unit-top">
+          <h4>4. Web Technology</h4>
+          <span>10 Theory + 15 Practical</span>
+        </div>
+
+        <div class="micro-preview">
+          <ul>
+            <li>4.1 Concepts of Web Technology</li>
+            <li>4.2 UI/UX and Wireframe Design</li>
+            <li>4.3 HTML Basics</li>
+          </ul>
+        </div>
+
+        <div class="micro-hidden">
+
+          <ul>
+            <li>4.3.1 Introduction to HTML</li>
+            <li>4.3.2 HTML Tags and Structure</li>
+            <li>4.3.3 Text Formatting Tags</li>
+            <li>4.3.4 Anchor, List, Table and Image Tags</li>
+            <li>4.3.5 Form and Div Tag</li>
+
+            <br>
+
+            <li><strong>4.4 CSS</strong></li>
+            <li>4.4.1 Introduction to CSS</li>
+            <li>4.4.2 Embed CSS in HTML</li>
+            <li>4.4.3 Inline, Internal and External CSS</li>
+
+            <br>
+
+            <li><strong>Practical Tasks</strong></li>
+            <li>a. Create webpage using HTML tags</li>
+            <li>b. Demonstrate inline and internal CSS</li>
+
+            <br>
+
+            <li><strong>Project Work</strong></li>
+            <li>a. Develop a personal web page using HTML and CSS</li>
+          </ul>
+
+        </div>
+
+        <button class="micro-btn">View More</button>
+      </div>
+
+      <!-- Chapter 5 -->
+      <div class="micro-unit">
+        <div class="micro-unit-top">
+          <h4>5. Internet and Social Media</h4>
+          <span>6 Theory + 6 Practical</span>
+        </div>
+
+        <div class="micro-preview">
+          <ul>
+            <li>5.1 WWW, Browser, Search Engine and URL</li>
+            <li>5.2 Remote Login</li>
+            <li>5.3 HTTP and HTTPS</li>
+          </ul>
+        </div>
+
+        <div class="micro-hidden">
+
+          <ul>
+            <li>5.4 Email and its uses</li>
+            <li>5.5 Safe use of social media</li>
+            <li>5.6 Video conference tools</li>
+            <li>5.7 Blogs and features</li>
+
+            <br>
+
+            <li><strong>Practical Tasks</strong></li>
+            <li>a. Search learning materials online</li>
+            <li>b. Create social media profile</li>
+            <li>c. Create virtual meeting</li>
+            <li>d. Create personal blog</li>
+          </ul>
+
+        </div>
+
+        <button class="micro-btn">View More</button>
+      </div>
+
+      <!-- Chapter 6 -->
+      <div class="micro-unit">
+        <div class="micro-unit-top">
+          <h4>6. Cyber Security and Digital Citizenship</h4>
+          <span>6 Theory + 4 Practical</span>
+        </div>
+
+        <div class="micro-preview">
+          <ul>
+            <li>6.1 Concepts of Cybersecurity</li>
+            <li>6.2 Cybercrime</li>
+            <li>6.3 Prevention methods</li>
+          </ul>
+        </div>
+
+        <div class="micro-hidden">
+
+          <ul>
+            <li>6.4 Safe web browsing techniques</li>
+            <li>6.5 Digital Citizen</li>
+            <li>6.6 Netiquette and online behavior</li>
+            <li>6.7 Digital footprint and privacy</li>
+
+            <br>
+
+            <li><strong>Practical Tasks</strong></li>
+            <li>a. Demonstrate antivirus</li>
+            <li>b. Demonstrate firewall</li>
+            <li>c. Apply safe browsing techniques</li>
+            <li>d. Use strong passwords</li>
+          </ul>
+
+        </div>
+
+        <button class="micro-btn">View More</button>
+      </div>
+
+      <!-- Chapter 7 -->
+      <div class="micro-unit">
+        <div class="micro-unit-top">
+          <h4>7. Programming Concept (Python)</h4>
+          <span>15 Theory + 18 Practical</span>
+        </div>
+
+        <div class="micro-preview">
+          <ul>
+            <li>7.1 Introduction to programming languages</li>
+            <li>7.2 Types of programming languages</li>
+            <li>7.3 Flowchart and Algorithm</li>
+          </ul>
+        </div>
+
+        <div class="micro-hidden">
+
+          <ul>
+            <li>7.4 Coding, testing and debugging</li>
+            <li>7.5 Compiler and Interpreter</li>
+            <li>7.6 Python programming basics</li>
+            <li>7.7 Syntax, Variables and Data Types</li>
+            <li>7.8 Operators and Expressions</li>
+            <li>7.9 Conditional Statements</li>
+            <li>7.10 Loops (for and while)</li>
+            <li>7.11 List and Dictionary</li>
+            <li>7.12 String and Mathematical Functions</li>
+
+            <br>
+
+            <li><strong>Practical Tasks</strong></li>
+            <li>a. Install Python and setup IDE</li>
+            <li>b. Demonstrate variables and operators</li>
+            <li>c. Demonstrate if/else and loops</li>
+            <li>d. Demonstrate list and dictionary</li>
+            <li>e. Demonstrate string and math functions</li>
+
+            <br>
+
+            <li><strong>Project Work</strong></li>
+            <li>a. Develop a simple real-life Python project</li>
+          </ul>
+
+        </div>
+
+        <button class="micro-btn">View More</button>
+      </div>
+
+    </div>
+    <!-- ========================= -->
+    <!-- GRADE 10 MICRO SYLLABUS -->
+    <!-- ========================= -->
+
+    <div class="micro-card">
+
+      <div class="micro-header">
+        <h3>Grade 10 Microsyllabus</h3>
+        <p>Total Working Hours: Theory (64) + Practical (64)</p>
+      </div>
+
+      <!-- Chapter 1 -->
+      <div class="micro-unit">
+
+        <div class="micro-unit-top">
+          <h4>1. Computer Network and Communication</h4>
+          <span>14 Theory + 6 Practical</span>
+        </div>
+
+        <div class="micro-preview">
+          <ul>
+            <li>1.1 Telecommunication and key terminology</li>
+            <li>1.2 Communication Media (Wired & Wireless)</li>
+            <li>1.3 Connectors and Networking Devices</li>
+          </ul>
+        </div>
+
+        <div class="micro-hidden">
+
+          <ul>
+            <li>1.4 Networking Devices: Repeater, Hub, Switch, Bridge, Router</li>
+            <li>1.5 Network Topologies: BUS, Star, Ring, Hybrid</li>
+            <li>1.6 PAN, LAN, MAN, WAN</li>
+            <li>1.7 Client-Server and Peer to Peer Architecture</li>
+            <li>1.8 IPv4 and IPv6 Addressing</li>
+            <li>1.9 Internet, Intranet and Extranet</li>
+
+            <br>
+
+            <li><strong>Practical Tasks</strong></li>
+            <li>a. Demonstrate and identify devices and cables</li>
+            <li>b. Check IP address and default gateway</li>
+            <li>c. Use ping, ipconfig, tracert and nslookup commands</li>
+            <li>d. Demonstrate RJ45 and Fiber connectors</li>
+          </ul>
+
+        </div>
+
+        <button class="micro-btn">View More</button>
+
+      </div>
+
+      <!-- Chapter 2 -->
+      <div class="micro-unit">
+
+        <div class="micro-unit-top">
+          <h4>2. Database Management System</h4>
+          <span>10 Theory + 16 Practical</span>
+        </div>
+
+        <div class="micro-preview">
+          <ul>
+            <li>2.1 Definition and application of database</li>
+            <li>2.2 Data, Information, Database and DBMS</li>
+            <li>2.3 Data Types and Tables</li>
+          </ul>
+        </div>
+
+        <div class="micro-hidden">
+
+          <ul>
+            <li>2.4 Rows and Columns</li>
+            <li>2.5 Primary Key and Foreign Key</li>
+            <li>2.6 Introduction to MySQL</li>
+            <li>2.7 DDL: CREATE, ALTER, DROP</li>
+            <li>2.8 DML: SELECT, INSERT, UPDATE, DELETE</li>
+
+            <br>
+
+            <li><strong>Practical Tasks</strong></li>
+            <li>a. Install MySQL database application</li>
+            <li>b. Create databases and tables</li>
+            <li>c. Use appropriate data types</li>
+            <li>d. Implement Primary and Foreign Keys</li>
+            <li>e. Modify tables using ALTER command</li>
+            <li>f. Insert, Select, Update and Delete records</li>
+            <li>g. Use WHERE and LIKE clauses</li>
+          </ul>
+
+        </div>
+
+        <button class="micro-btn">View More</button>
+
+      </div>
+
+      <!-- Chapter 3 -->
+      <div class="micro-unit">
+
+        <div class="micro-unit-top">
+          <h4>3. Multimedia</h4>
+          <span>10 Theory + 12 Practical</span>
+        </div>
+
+        <div class="micro-preview">
+          <ul>
+            <li>3.1 Concept of Multimedia Technology</li>
+            <li>3.2 Multimedia Components</li>
+            <li>3.3 Graphics, Audio and Video Concepts</li>
+          </ul>
+        </div>
+
+        <div class="micro-hidden">
+
+          <ul>
+            <li>3.3 Raster and Vector Graphics</li>
+            <li>3.4 Audio Waveform and Formats (MP3, WAV, AAC)</li>
+            <li>3.5 Video Resolution and Formats (MP4, MOV, AVI)</li>
+            <li>3.6 2D and 3D Animation</li>
+
+            <br>
+
+            <li><strong>Practical Tasks</strong></li>
+            <li>a. Edit graphics using Photoshop or Pixlr</li>
+            <li>b. Edit audio using Audacity or AudioMass</li>
+            <li>c. Edit video using CapCut or Clipchamp</li>
+
+            <br>
+
+            <li><strong>Project Work</strong></li>
+            <li>a. Create and demonstrate multimedia projects in class</li>
+          </ul>
+
+        </div>
+
+        <button class="micro-btn">View More</button>
+
+      </div>
+
+      <!-- Chapter 4 -->
+      <div class="micro-unit">
+
+        <div class="micro-unit-top">
+          <h4>4. Programming in Python</h4>
+          <span>16 Theory + 18 Practical</span>
+        </div>
+
+        <div class="micro-preview">
+          <ul>
+            <li>4.1 Revision of Python basics</li>
+            <li>4.2 User Defined Functions</li>
+            <li>4.3 Libraries and Packages</li>
+          </ul>
+        </div>
+
+        <div class="micro-hidden">
+
+          <ul>
+            <li>4.3.1 Importing Standard Libraries</li>
+            <li>4.3.2 Math, Random, Pandas, Turtle, Matplotlib</li>
+            <li>4.4 Graphics using Turtle</li>
+            <li>4.5 Error Handling using try-except</li>
+            <li>4.6 File Handling and CSV Files</li>
+            <li>4.7 Data Visualization using Matplotlib or Plotly</li>
+
+            <br>
+
+            <li><strong>Practical Tasks</strong></li>
+            <li>a. Demonstrate user defined functions</li>
+            <li>b. Install and use Python libraries</li>
+            <li>c. Draw shapes using Turtle</li>
+            <li>d. Read and write CSV files using Pandas</li>
+            <li>e. Plot line, pie and bar charts</li>
+
+            <br>
+
+            <li><strong>Project Work</strong></li>
+            <li>a. Develop a simple Python project</li>
+            <li>b. Prepare development process report</li>
+          </ul>
+
+        </div>
+
+        <button class="micro-btn">View More</button>
+
+      </div>
+
+      <!-- Chapter 5 -->
+      <div class="micro-unit">
+
+        <div class="micro-unit-top">
+          <h4>5. AI and Contemporary Technologies</h4>
+          <span>14 Theory + 12 Practical</span>
+        </div>
+
+        <div class="micro-preview">
+          <ul>
+            <li>5.1 Artificial Intelligence and Machine Learning</li>
+            <li>5.2 Learning Techniques in Machine</li>
+            <li>5.3 AI in Robotics</li>
+          </ul>
+        </div>
+
+        <div class="micro-hidden">
+
+          <ul>
+            <li>5.4 Generative AI: ChatGPT, Gemini, Copilot</li>
+            <li>5.5 AI integrated tools and Office 365</li>
+            <li>5.6 Ethics in AI: Bias, Privacy, Security</li>
+            <li>5.7 Internet of Things (IoT)</li>
+            <li>5.8 Virtual and Extended Reality (XR)</li>
+            <li>5.9 Cloud Computing</li>
+            <li>5.10 e-Commerce, e-Governance and e-Education</li>
+
+            <br>
+
+            <li><strong>Practical Tasks</strong></li>
+            <li>a. Demonstrate AI robotics simulation</li>
+            <li>b. Use ChatGPT, Gemini and Copilot tools</li>
+            <li>c. Explore e-commerce and e-governance sites</li>
+            <li>d. Explore virtual tours and XR practices</li>
+          </ul>
+
+        </div>
+
+        <button class="micro-btn">View More</button>
+
+      </div>
+
+    </div>    
+    <!-- =========================
+    GRADE 11 MICRO SYLLABUS
+    ========================= -->
+
+    <section class="micro-syllabus-section">
+
+      <div class="micro-header">
+        <h2>Grade 11 Microsyllabus</h2>
+        <p>Total Working Hours: 80 Hours</p>
+      </div>
+
+      <!-- Unit 1 -->
+      <div class="micro-unit">
+        <div class="micro-unit-top">
+          <h4>Unit 1: Computer System</h4>
+          <span>20 Hours</span>
+        </div>
+
+        <div class="micro-preview">
+          <ul>
+            <li>1.1 Introduction of computer</li>
+            <li>1.1.1 Definition, characteristics and application of computer</li>
+            <li>1.1.2 Evolution of computer technology</li>
+            <li>1.1.3 Measurement unit of processing speed and storage unit</li>
+          </ul>
+        </div>
+
+        <div class="micro-hidden">
+          <ul>
+            <li>1.1.4 Super, Mainframe, Mini and Microcomputers</li>
+            <li>1.1.5 Mobile Computing and its Application</li><br>
+
+            <li>1.2 Computer system and I/O devices</li>
+            <li>1.2.1 Concept of computer architecture and organization</li>
+            <li>1.2.2 Components of computer system: input unit, output unit, processing unit, memory unit and storage</li>
+            <li>1.2.3 Microprocessor: basic concepts, clock speed, word length, components and functions</li>
+            <li>1.2.4 Bus System: data bus, address bus and control bus</li>
+            <li>1.2.5 Primary memory: RAM, ROM, Cache, Buffer, types of RAM and ROM</li>
+            <li>1.2.6 Secondary Memory: Magnetic Disk, Flash Memory, Optical Disk, External Storage Device and memo stick</li><br>
+
+            <li>1.2.7 Input Devices – Keyboard, Mouse, Scanner, Light Pen, OMR, OCR, BCR, MICR, Touch Screen, Microphone and Digital Camera</li>
+            <li>1.2.8 Output Devices: Monitor (LCD, LED), Printer (Dot Matrix, Inkjet, Laser), Speaker</li>
+            <li>1.2.9 Hardware Interfaces: Parallel Port, Serial Port, USB Ports, HDMI and Expansion Slots</li>
+          </ul>
+        </div>
+
+        <button class="micro-toggle-btn">View More</button>
+      </div>
+
+      <!-- Unit 2 -->
+      <div class="micro-unit">
+        <div class="micro-unit-top">
+          <h4>Unit 2: Number System and Boolean Logic</h4>
+          <span>11 Hours</span>
+        </div>
+
+        <div class="micro-preview">
+          <ul>
+            <li>2.1 Number System and conversion</li>
+            <li>2.1.1 Decimal, Binary, Octal, Hexadecimal Number System & conversion</li>
+            <li>2.1.2 Calculation in binary addition and subtraction</li>
+          </ul>
+        </div>
+
+        <div class="micro-hidden">
+          <ul>
+            <li>2.1.3 One’s and Two’s complement methods of binary subtraction</li><br>
+
+            <li>2.2 Logic Function and Boolean Algebra</li>
+            <li>2.2.1 Introduction to Boolean algebra</li>
+            <li>2.2.2 Boolean values, truth table, Boolean expression and Boolean function</li>
+            <li>2.2.3 Logic Gates – AND, OR, NOT, NAND, NOR, XOR and XNOR</li>
+            <li>2.2.4 Laws of Boolean algebra – Identity, Complement, Commutative, Associative and Distributive</li>
+            <li>2.2.5 Verification of Boolean laws using truth table</li>
+          </ul>
+        </div>
+
+        <button class="micro-toggle-btn">View More</button>
+      </div>
+
+      <!-- Unit 3 -->
+      <div class="micro-unit">
+        <div class="micro-unit-top">
+          <h4>Unit 3: Computer Software and Operating System</h4>
+          <span>12 Hours</span>
+        </div>
+
+        <div class="micro-preview">
+          <ul>
+            <li>3.1 Concept of Software</li>
+            <li>3.1.1 Definition of software</li>
+            <li>3.1.2 Categories of software</li>
+            <li>3.2 Concept of Operating System</li>
+          </ul>
+        </div>
+
+        <div class="micro-hidden">
+          <ul>
+            <li>3.2.1 Introduction to Operating System</li>
+            <li>3.2.2 Role and functions of Operating System</li>
+            <li>3.2.3 Multiprogramming, multitasking, multiprocessing and distributed system</li><br>
+
+            <li>3.3 Windows Operating System</li>
+            <li>3.3.1 GUI based Operating system and features</li>
+            <li>3.3.2 Desktop Application and Window Environment</li>
+            <li>3.3.3 File Explorer and folder management</li>
+            <li>3.3.4 Customize desktop and start screen</li>
+            <li>3.3.5 Installing and removing devices</li>
+            <li>3.3.6 Manage passwords and privacy levels</li>
+            <li>3.3.7 Use of control panel and accessories</li><br>
+
+            <li>3.4 Open Source and Mobile Operating System</li>
+            <li>3.4.1 Linux and UNIX</li>
+            <li>3.4.2 Linux Distributions</li>
+            <li>3.4.3 Mobile Operating System and types</li>
+          </ul>
+        </div>
+
+        <button class="micro-toggle-btn">View More</button>
+      </div>
+
+      <!-- Unit 4 -->
+      <div class="micro-unit">
+        <div class="micro-unit-top">
+          <h4>Unit 4: Application Package</h4>
+          <span>5 Hours</span>
+        </div>
+
+        <div class="micro-preview">
+          <ul>
+            <li>4.1 Office Package</li>
+            <li>Word processor, Presentation tool, Spreadsheet package</li>
+          </ul>
+        </div>
+
+        <div class="micro-hidden">
+          <ul>
+            <li>Database management system</li><br>
+
+            <li>4.2 Domain-specific tools</li>
+            <li>School management system</li>
+            <li>Inventory management system</li>
+            <li>Payroll system</li>
+            <li>Financial accounting</li>
+            <li>Hotel management</li>
+            <li>Weather forecasting system</li>
+          </ul>
+        </div>
+
+        <button class="micro-toggle-btn">View More</button>
+      </div>
+
+      <!-- Unit 5 -->
+      <div class="micro-unit">
+        <div class="micro-unit-top">
+          <h4>Unit 5: Programming Concepts & Logics</h4>
+          <span>8 Hours</span>
+        </div>
+
+        <div class="micro-preview">
+          <ul>
+            <li>5.1 Programming Concept</li>
+            <li>Programming languages and generations</li>
+            <li>Compiler, Interpreter and Assembler</li>
+            <li>Errors and Control Structures</li>
+          </ul>
+        </div>
+
+        <div class="micro-hidden">
+          <ul>
+            <li>Algorithm, Flowchart and Pseudocode</li>
+            <li>ASCII, Unicode, BCD</li><br>
+
+            <li>5.2 C Programming Languages</li>
+            <li>Structure of C program</li>
+            <li>C Preprocessor and Header Files</li>
+            <li>Identifiers, Keywords and Tokens</li>
+            <li>Data Types, Variables and Constants</li>
+            <li>Operators and Expressions</li>
+            <li>Input/output Functions</li>
+            <li>Decision and Looping Statements</li>
+            <li>Arrays and Strings</li>
+            <li>String functions: strlen(), strcat(), strcmp(), strcpy(), strrev()</li>
+          </ul>
+        </div>
+
+        <button class="micro-toggle-btn">View More</button>
+      </div>
+
+      <!-- Unit 6 -->
+      <div class="micro-unit">
+        <div class="micro-unit-top">
+          <h4>Unit 6: Web Technology I</h4>
+          <span>8 Hours</span>
+        </div>
+
+        <div class="micro-preview">
+          <ul>
+            <li>6.1 Web development introduction</li>
+            <li>6.2 Web browsers and Search Engines</li>
+            <li>6.3 Internet & web technologies</li>
+            <li>6.4 HTML Basics</li>
+          </ul>
+        </div>
+
+        <div class="micro-hidden">
+          <ul>
+            <li>HTML Structure and Tags</li>
+            <li>Heading, Paragraph and Formatting Tags</li>
+            <li>Lists, Tables and Hyperlinks</li>
+            <li>Forms and Input Elements</li>
+            <li>HTML5 Audio, Video, Canvas and SVG</li>
+            <li>Domain name and Web hosting</li><br>
+
+            <li>6.5 Cascading Style Sheets (CSS)</li>
+            <li>Inline CSS</li>
+            <li>Embedded CSS</li>
+            <li>External CSS</li>
+          </ul>
+        </div>
+
+        <button class="micro-toggle-btn">View More</button>
+      </div>
+
+      <!-- Unit 7 -->
+      <div class="micro-unit">
+        <div class="micro-unit-top">
+          <h4>Unit 7: Multimedia</h4>
+          <span>6 Hours</span>
+        </div>
+
+        <div class="micro-preview">
+          <ul>
+            <li>7.1 Introduction to Multimedia</li>
+            <li>7.2 Components of Multimedia</li>
+          </ul>
+        </div>
+
+        <div class="micro-hidden">
+          <ul>
+            <li>Text, Graphics, Audio, Video and Animation</li>
+            <li>7.3 Application of Multimedia</li>
+          </ul>
+        </div>
+
+        <button class="micro-toggle-btn">View More</button>
+      </div>
+
+      <!-- Unit 8 -->
+      <div class="micro-unit">
+        <div class="micro-unit-top">
+          <h4>Unit 8: Information Security and Cyber Law</h4>
+          <span>--</span>
+        </div>
+
+        <div class="micro-preview">
+          <ul>
+            <li>8.1 Digital society and computer ethics</li>
+            <li>8.2 Information security</li>
+            <li>8.3 Cybercrime</li>
+          </ul>
+        </div>
+
+        <div class="micro-hidden">
+          <ul>
+            <li>8.4 Malicious software and Spam</li>
+            <li>8.5 Protection from cybercrime</li>
+            <li>8.6 Intellectual Property Right</li>
+            <li>8.7 Digital Signature</li>
+            <li>8.8 Cyber Law in Nepal</li>
+            <li>8.9 ICT Policy in Nepal</li>
+          </ul>
+        </div>
+
+        <button class="micro-toggle-btn">View More</button>
+      </div>
+    </section>
+
+    <!-- =========================
+    GRADE 12 MICRO SYLLABUS
+    ========================= -->
+
+    <section class="micro-syllabus-section">
+
+      <div class="micro-header">
+        <h2>Grade 12 Microsyllabus</h2>
+        <p>Total Working Hours: 70 Hours</p>
+      </div>
+
+      <!-- Unit 1 -->
+      <div class="micro-unit">
+        <div class="micro-unit-top">
+          <h4>1. Database Management System (DBMS)</h4>
+          <span>12 Hours</span>
+        </div>
+
+        <div class="micro-preview">
+          <ul>
+            <li>1.1 Introduction to data, database, Database system, DBMS</li>
+            <li>1.2 Field, Record, Objects, Primary Key, Alternate key, Candidate key</li>
+            <li>1.3 Advantages of using DBMS</li>
+          </ul>
+        </div>
+
+        <div class="micro-hidden">
+          <ul>
+            <li>1.4 DDL (Data Definition Language) and DML (Data Manipulation Language)</li>
+            <li>1.5 Database Model: Network, Hierarchical and Relational database model</li>
+            <li>1.6 Concept of Normalization: 1NF, 2NF, 3NF</li>
+            <li>1.7 Centralized Vs. Distributed Database</li>
+            <li>1.8 Database Security</li>
+          </ul>
+        </div>
+
+        <button class="micro-toggle-btn">View More</button>
+      </div>
+
+      <!-- Unit 2 -->
+      <div class="micro-unit">
+        <div class="micro-unit-top">
+          <h4>2. Data Communication and Networking</h4>
+          <span>15 Hours</span>
+        </div>
+
+        <div class="micro-preview">
+          <ul>
+            <li>2.1 Basic elements of Communication System</li>
+            <li>2.2 Concept of Communication System</li>
+            <li>2.3 Block Diagram of communication System / Model</li>
+            <li>2.4 Elements of Data Communication/Transmission</li>
+          </ul>
+        </div>
+
+        <div class="micro-hidden">
+          <ul>
+            <li>2.5 Simplex, Half duplex and Full duplex communication mode</li>
+            <li>2.6 Concept of LAN and WAN</li>
+            <li>2.7 Transmission Medium: Guided and Unguided</li>
+            <li>2.8 Transmission impairments terminology (Jitter, Echo, Crosstalk, Distortion, Noise, Bandwidth)</li>
+            <li>2.9 Client-Server and Peer-to-peer Architecture</li>
+            <li>2.10 IP Address, Subnet Mask, Gateway, MAC Address, Internet, Intranet, Extranet</li>
+            <li>2.11 Network Tool: Packet tracer, Remote Login</li>
+            <li>2.12 Network Connecting Devices: NIC, Modem, Router, Switch</li>
+            <li>2.13 Network Topologies: Bus, Ring and Star topology</li>
+            <li>2.14 Basic Concept of OSI Reference Model</li>
+            <li>2.15 Internet Protocol Addressing</li>
+          </ul>
+        </div>
+
+        <button class="micro-toggle-btn">View More</button>
+      </div>
+
+      <!-- Unit 3 -->
+      <div class="micro-unit">
+        <div class="micro-unit-top">
+          <h4>3. Web Technology II</h4>
+          <span>12 Hours</span>
+        </div>
+
+        <div class="micro-preview">
+          <ul>
+            <li>3.1 Introduction</li>
+            <li>3.2 Server side and Client Side Scripting</li>
+            <li>3.3 Introduction of internet technology</li>
+            <li>3.4 Adding JavaScript to HTML page</li>
+          </ul>
+        </div>
+
+        <div class="micro-hidden">
+          <ul>
+            <li>3.5 JavaScript fundamentals</li>
+            <li>3.6 JavaScript Data types</li>
+            <li>3.7 Variables and operators</li>
+            <li>3.8 Functions and control structures</li>
+            <li>3.9 Object based programming with JavaScript and Event handling</li>
+            <li>3.10 Image, event and form objects</li>
+            <li>3.11 Form validation and JQuery</li><br>
+
+            <li>3.12 Server Side Scripting using PHP</li>
+            <li>3.13 Introduction to PHP: Hardware and Software Requirements</li>
+            <li>3.14 Object oriented programming with server side scripting</li>
+            <li>3.15 Basic PHP syntax</li>
+            <li>3.16 PHP data types</li>
+            <li>3.17 Basic Programming in PHP</li>
+            <li>3.18 Operators (Arithmetic, logical, comparison, operator precedence)</li>
+            <li>3.19 Variables Manipulation</li>
+            <li>3.20 Database Connectivity</li>
+            <li>3.21 Connecting server side script to database</li>
+            <li>3.22 Making SQL queries</li>
+            <li>3.23 Fetching data sets and metadata</li>
+            <li>3.24 Creating SQL database with server side scripting</li>
+            <li>3.25 Displaying queries in tables</li>
+          </ul>
+        </div>
+
+        <button class="micro-toggle-btn">View More</button>
+      </div>
+
+      <!-- Unit 4 -->
+      <div class="micro-unit">
+        <div class="micro-unit-top">
+          <h4>4. Programming in C</h4>
+          <span>12 Hours</span>
+        </div>
+
+        <div class="micro-preview">
+          <ul>
+            <li>4.1 Review of C programming concept</li>
+            <li>4.2 Functions</li>
+            <li>4.2.1 Library and user defined functions</li>
+            <li>4.2.2 Function definition, prototype, call and return statements</li>
+          </ul>
+        </div>
+
+        <div class="micro-hidden">
+          <ul>
+            <li>4.2.3 Accessing a Function by passing values</li>
+            <li>4.2.4 Concept of storage: automatic and external</li>
+            <li>4.2.5 Recursion: factorial and Fibonacci problems</li><br>
+
+            <li>4.3 Structures and Unions</li>
+            <li>4.3.1 Structure: Definition, Declaration, Initialization and Size</li>
+            <li>4.3.2 Accessing member of structure</li>
+            <li>4.3.3 Array of structure</li>
+            <li>4.3.4 Union: Definition and Declaration</li>
+            <li>4.3.5 Difference between union and structure</li><br>
+
+            <li>4.4 Pointers</li>
+            <li>4.4.1 Definition of Pointer</li>
+            <li>4.4.2 Address (&) and indirection (*) operator</li>
+            <li>4.4.3 Pointer Expression and Assignment</li>
+            <li>4.4.4 Call by value and call by reference</li><br>
+
+            <li>4.5 Working with Files</li>
+            <li>4.5.1 Concept of Data File</li>
+            <li>4.5.2 Sequential and Random File</li>
+            <li>4.5.3 File manipulation functions: putw, getw, putc, getc, fscanf, fprintf</li>
+            <li>4.5.4 Opening, Reading, Writing and Appending data file</li>
+          </ul>
+        </div>
+
+        <button class="micro-toggle-btn">View More</button>
+      </div>
+
+      <!-- Unit 5 -->
+      <div class="micro-unit">
+        <div class="micro-unit-top">
+          <h4>5. Object-Oriented Programming (OOP)</h4>
+          <span>10 Hours</span>
+        </div>
+
+        <div class="micro-preview">
+          <ul>
+            <li>5.1 Programming paradigms: procedural, structural and object oriented</li>
+            <li>5.2 Features of OOP: Class, Object, Polymorphism and Inheritance</li>
+          </ul>
+        </div>
+
+        <div class="micro-hidden">
+          <ul>
+            <li>5.3 Advantages of OOP</li>
+            <li>5.4 Application of OOP</li>
+          </ul>
+        </div>
+
+        <button class="micro-toggle-btn">View More</button>
+      </div>
+
+      <!-- Unit 6 -->
+      <div class="micro-unit">
+        <div class="micro-unit-top">
+          <h4>6. Software Process Model</h4>
+          <span>10 Hours</span>
+        </div>
+
+        <div class="micro-preview">
+          <ul>
+            <li>6.1 Software Project Concept</li>
+            <li>6.2 Concept of software development process</li>
+            <li>6.3 Concept SDLC life cycle</li>
+          </ul>
+        </div>
+
+        <div class="micro-hidden">
+          <ul>
+            <li>6.4 System Analyst Vs Software Engineer</li>
+            <li>6.5 Requirement Collection Methods</li>
+            <li>6.6 Concept of system design</li>
+            <li>6.7 Software and quality</li>
+            <li>6.8 Software development model: waterfall, prototype, agile</li>
+          </ul>
+        </div>
+
+        <button class="micro-toggle-btn">View More</button>
+      </div>
+
+      <!-- Unit 7 -->
+      <div class="micro-unit">
+        <div class="micro-unit-top">
+          <h4>7. Recent Trends in Technology</h4>
+          <span>9 Hours</span>
+        </div>
+
+        <div class="micro-preview">
+          <ul>
+            <li>7.1 Concept of Artificial Intelligence (AI) and Robotics</li>
+            <li>7.2 Concept of Cloud Computing</li>
+            <li>7.3 Concept of Big Data</li>
+          </ul>
+        </div>
+
+        <div class="micro-hidden">
+          <ul>
+            <li>7.4 Concept of Virtual Reality</li>
+            <li>7.5 Concept of e-com, e-medicine, e-gov</li>
+            <li>7.6 Concept of Mobile Computing</li>
+            <li>7.7 Concept of Internet of things (IoT)</li>
+          </ul>
+        </div>
+
+        <button class="micro-toggle-btn">View More</button>
+      </div>
+
+    </section>
+
+  </div>
+</section>
+  <!-- ===== TEACHING SECTION ===== -->
+  <section class="section" id="teaching">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">The Educator</span>
+        <h2 class="section-title">My Teaching Approach</h2>
+      </div>
+      <div class="teaching-grid">
+        <div class="teaching-text">
+          <h3>Courses I Teach</h3>
+          <div class="course-list">
+            <div class="course-item">
+              <span class="course-grade">G9 / G10</span>
+              <span>Computer Science (NEB Curriculum)</span>
+            </div>
+            <div class="course-item">
+              <span class="course-grade">G11 / G12</span>
+              <span>Computer Science & Information Technology</span>
+            </div>
+            <div class="course-item">
+              <span class="course-grade">+2</span>
+              <span>C Programming, Database, Web Development</span>
+            </div>
+            <div class="course-item">
+              <span class="course-grade">Extra</span>
+              <span>Data Analysis & Excel for Beginners</span>
+            </div>
+          </div>
+
+          <h3 style="margin-top:2rem;">Teaching Philosophy</h3>
+          <p>I believe every student can master technology — the key is meeting them where they are. I break complex topics into digestible steps, use real-world analogies, and always connect theory to practice.</p>
+          <p>My classroom is a safe space for questions. No concept is too basic to ask about. Progress is celebrated, not rushed.</p>
+
+          <h3 style="margin-top:2rem;">Focus: Practical Learning</h3>
+          <p>Theory without practice is incomplete. Every lesson I teach has a corresponding hands-on activity — whether it's writing your first SQL query, building a webpage, or analyzing a dataset. Students graduate from my class with a portfolio, not just notes.</p>
+        </div>
+        <div class="teaching-stats">
+          <div class="stat-card">
+            <span class="stat-number">2+</span>
+            <span class="stat-label">Years Teaching</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number">3</span>
+            <span class="stat-label">Schools</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number">200+</span>
+            <span class="stat-label">Students Taught</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number">4</span>
+            <span class="stat-label">Grade Levels</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <p>NoteHub by <strong>Arom Khadka</strong> · Free learning resources for students</p>
+      <p class="footer-sub">© 2025 · All rights reserved · <a href="index.html">Back to Portfolio</a></p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/notes.js"></script>
+</body>
+</html>
