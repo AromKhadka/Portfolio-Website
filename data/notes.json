@@ -9,7 +9,7 @@
     { "chapter": "Programming Concept (Python)",           "file": null }
   ],
   "grade10": [
-    { "chapter": "Computer Network & Communication",       "file": "assets/notes/grade9/Computer Network & Communication.pdf" },
+    { "chapter": "Computer Network & Communication",       "file": "assets/notes/grade9/Chapter-1.pdf" },
     { "chapter": "Database Management System",             "file": null },
     { "chapter": "Multimedia",                             "file": null },
     { "chapter": "Programming with Python",                "file": null },
