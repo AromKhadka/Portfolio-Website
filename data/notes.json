@@ -13,7 +13,12 @@
     { "chapter": "Database Management System",             "file": null },
     { "chapter": "Multimedia",                             "file": null },
     { "chapter": "Programming with Python",                "file": null },
-    { "chapter": "AI & Contemporary Technology",           "file": null }
+    { "chapter": "AI & Contemporary Technology",           "file": null },
+    {
+      "chapter": "Computer Science Complete Guide Book",
+      "type": "book",
+      "file": "assets/notes/grade10/10-book-cs.pdf"
+    }
   ],
   "grade11": [
     { "chapter": "Computer System",                        "file": null },
