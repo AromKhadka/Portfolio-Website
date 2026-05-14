@@ -26,12 +26,12 @@
     { "chapter": "Information Security and Cyber Law",     "file": "assets/notes/grade11/Unit-8.pdf" }
   ],
   "grade12": [
-    { "chapter": "DBMS Concept",                           "file": null },
-    { "chapter": "Data Communication & Networking",        "file": null },
-    { "chapter": "Web Technology II",                      "file": null },
-    { "chapter": "Programming II",                         "file": null },
-    { "chapter": "Object-Oriented Programming",            "file": null },
-    { "chapter": "Software Process Model",                 "file": null },
-    { "chapter": "Recent Trends in Technology",            "file": null }
+    { "chapter": "DBMS Concept",                           "file": "assets/notes/grade12/Unit-1.pdf" },
+    { "chapter": "Data Communication & Networking",        "file": "assets/notes/grade12/Unit-2.pdf" },
+    { "chapter": "Web Technology II",                      "file": "assets/notes/grade12/Unit-3.pdf" },
+    { "chapter": "Programming II",                         "file": "assets/notes/grade12/Unit-4.pdf" },
+    { "chapter": "Object-Oriented Programming",            "file": "assets/notes/grade12/Unit-5.pdf" },
+    { "chapter": "Software Process Model",                 "file": "assets/notes/grade12/Unit-6.pdf" },
+    { "chapter": "Recent Trends in Technology",            "file": "assets/notes/grade12/Unit-7.pdf" }
   ]
 }
