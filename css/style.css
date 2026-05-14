@@ -452,6 +452,57 @@ p { color: var(--text-muted); }
 }
 .reveal.visible { opacity: 1; transform: translateY(0); }
 
+/* ── MOBILE HERO FIX ───────────────────────────── */
+@media (max-width: 768px) {
+
+  .hero-container {
+    flex-direction: column-reverse;
+    text-align: center;
+
+    padding: 100px 20px 40px; /* FIXED */
+    gap: 30px; /* reduce chaos spacing */
+  }
+
+  .hero-content {
+    max-width: 100%;
+  }
+
+  .hero-name {
+    font-size: 2.8rem;
+    line-height: 1.1;
+  }
+
+  .hero-title {
+    font-size: 1rem;
+  }
+
+  .hero-tagline {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .hero-buttons {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-buttons a {
+    width: 100%;
+    max-width: 280px;
+    text-align: center;
+  }
+
+  .hero-image {
+    width: 100%;
+  }
+
+  .image-wrapper {
+    width: 220px;
+    height: 220px;
+  }
+}
+
 /* ── ABOUT SECTION ───────────────────────────────────────────── */
 .about-grid {
   display: grid;
