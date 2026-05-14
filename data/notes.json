@@ -16,14 +16,14 @@
     { "chapter": "AI & Contemporary Technology",           "file": null }
   ],
   "grade11": [
-    { "chapter": "Computer System",                        "file": null },
-    { "chapter": "Number System & Boolean Logic",          "file": null },
-    { "chapter": "Computer Software and Operating System", "file": null },
-    { "chapter": "Application Package",                    "file": null },
-    { "chapter": "Programming Concepts & Logics",          "file": null },
-    { "chapter": "Web Technology I",                       "file": null },
-    { "chapter": "Multimedia",                             "file": null },
-    { "chapter": "Information Security and Cyber Law",     "file": null }
+    { "chapter": "Computer System",                        "file": "assets/notes/grade11/Unit-1.pdf" },
+    { "chapter": "Number System & Boolean Logic",          "file": "assets/notes/grade11/Unit-2.pdf" },
+    { "chapter": "Computer Software and Operating System", "file": "assets/notes/grade11/Unit-3.pdf" },
+    { "chapter": "Application Package",                    "file": "assets/notes/grade11/Unit-4.pdf" },
+    { "chapter": "Programming Concepts & Logics",          "file": "assets/notes/grade11/Unit-5.pdf" },
+    { "chapter": "Web Technology I",                       "file": "assets/notes/grade11/Unit-6.pdf" },
+    { "chapter": "Multimedia",                             "file": "assets/notes/grade11/Unit-7.pdf" },
+    { "chapter": "Information Security and Cyber Law",     "file": "assets/notes/grade11/Unit-8.pdf" }
   ],
   "grade12": [
     { "chapter": "DBMS Concept",                           "file": null },
