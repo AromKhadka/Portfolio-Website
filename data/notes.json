@@ -10,7 +10,7 @@
   ],
   "grade10": [
     { "chapter": "Computer Network & Communication",       "file": "assets/notes/grade10/computer-network-communication.pdf" },
-    { "chapter": "Database Management System",             "file": null },
+    { "chapter": "Database Management System",             "file": "assets/notes/grade10/DBMS.pdf" },
     { "chapter": "Multimedia",                             "file": null },
     { "chapter": "Programming with Python",                "file": null },
     { "chapter": "AI & Contemporary Technology",           "file": null }
