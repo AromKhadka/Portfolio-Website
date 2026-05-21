@@ -1,9 +1,9 @@
 {
   "grade9": [
     { "chapter": "Computer System",                        "file": "assets/notes/grade9/computer-system.pdf" },
-    { "chapter": "Number System",                          "file": null },
+    { "chapter": "Number System",                          "file": "assets/notes/grade9/number_system.pdf" },
     { "chapter": "Block Programming",                      "file": null },
-    { "chapter": "Web Technology",                         "file": null },
+    { "chapter": "Web Technology",                         "file": "assets/notes/grade9/web-techhnology.pdf" },
     { "chapter": "Internet & Social Media",                "file": null },
     { "chapter": "Cyber Security & Digital Citizenship",   "file": null },
     { "chapter": "Programming Concept (Python)",           "file": null }
