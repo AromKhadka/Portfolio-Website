@@ -14,7 +14,7 @@
     { "chapter": "Multimedia",                             "file": null },
     { "chapter": "Programming with Python",                "file": null },
     { "chapter": "AI & Contemporary Technology",           "file": null },
-    { "chapter": "DBMS Lab",                               "file": "assets/notes/grade10/SQL_LAB.pdf" }
+    { "chapter": "DBMS Lab",                               "file": "assets/notes/grade10/SQL_Lab.pdf"}
   ],
   "grade11": [
     { "chapter": "Computer System",                        "file": "assets/notes/grade11/Unit-1.pdf" },
