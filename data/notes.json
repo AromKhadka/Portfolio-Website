@@ -12,10 +12,11 @@
     { "chapter": "Computer Network & Communication",       "file": "assets/notes/grade10/computer-network-communication.pdf" },
     { "chapter": "Database Management System",             "file": "assets/notes/grade10/DBMS.pdf" },
     { "chapter": "Multimedia",                             "file": null },
-    { "chapter": "Programming with Python",                "file": null },
+    { "chapter": "Programming with Python",                "file": "assets/notes/grade10/Python.pdf" },
     { "chapter": "AI & Contemporary Technology",           "file": null },
     { "chapter": "DBMS Lab",                               "file": "assets/notes/grade10/SQL-Lab.pdf"},
-    { "chapter": "Model Question",                               "file": "assets/notes/grade10/g_10_m.pdf" }
+    { "chapter": "Python Lab",                 "file": "assets/notes/grade10/Python-Code-Questions.pdf" },
+    { "chapter": "Model Question",                         "file": "assets/notes/grade10/g_10_m.pdf" }
   ],
   "grade11": [
     { "chapter": "Computer System",                        "file": "assets/notes/grade11/Unit-1.pdf" },
