@@ -11,12 +11,12 @@
   "grade10": [
     { "chapter": "Computer Network & Communication",       "file": "assets/notes/grade10/CN.pdf" },
     { "chapter": "Database Management System",             "file": "assets/notes/grade10/DBMS.pdf" },
-    { "chapter": "Multimedia",                             "file": "assets/notes/grade10/MM" },
+    { "chapter": "Multimedia",                             "file": "assets/notes/grade10/MM.pdf" },
     { "chapter": "Programming with Python",                "file": "assets/notes/grade10/Python.pdf" },
-    { "chapter": "AI & Contemporary Technology",           "file": "assets/notes/grade10/AI" },
-    { "chapter": "MCQ's",                                   "file": "assets/notes/grade10/CS_MCQ" },
-    { "chapter": "Short Question",                          "file": "assets/notes/grade10/CS_short_question" },
-    { "chapter": "Long Question",                           "file": "assets/notes/grade10/CS_long_question" },
+    { "chapter": "AI & Contemporary Technology",           "file": "assets/notes/grade10/AI.pdf" },
+    { "chapter": "MCQ's",                                   "file": "assets/notes/grade10/CS_MCQ.pdf" },
+    { "chapter": "Short Question",                          "file": "assets/notes/grade10/CS_short_question.pdf" },
+    { "chapter": "Long Question",                           "file": "assets/notes/grade10/CS_long_question.pdf" },
     { "chapter": "Model Question",                         "file": "assets/notes/grade10/g_10_m.pdf" }
   ],
   "grade11": [
