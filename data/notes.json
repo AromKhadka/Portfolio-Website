@@ -6,7 +6,10 @@
     { "chapter": "Web Technology",                         "file": "assets/notes/grade9/web-techhnology.pdf" },
     { "chapter": "Internet & Social Media",                "file": null },
     { "chapter": "Cyber Security & Digital Citizenship",   "file": null },
-    { "chapter": "Programming Concept (Python)",           "file": null }
+    { "chapter": "Programming Concept (Python)",           "file": null },
+    { "chapter": "MCQ's",                                   "file": "assets/notes/grade9/CS_MCQ.pdf" },
+    { "chapter": "Short Question",                          "file": "assets/notes/grade9/CS_short_question.pdf" },
+    { "chapter": "Long Question",                           "file": "assets/notes/grade9/CS_long_question.pdf" }
   ],
   "grade10": [
     { "chapter": "Computer Network & Communication",       "file": "assets/notes/grade10/CN.pdf" },
