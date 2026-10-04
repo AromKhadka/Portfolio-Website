@@ -2,11 +2,11 @@
   "grade9": [
     { "chapter": "Computer System",                        "file": "assets/notes/grade9/computer-system.pdf" },
     { "chapter": "Number System",                          "file": "assets/notes/grade9/number_system.pdf" },
-    { "chapter": "Block Programming",                      "file": null },
+    { "chapter": "Block Programming",                      "file": "assets/notes/grade9/Block_Programming.pdf" },
     { "chapter": "Web Technology",                         "file": "assets/notes/grade9/web-techhnology.pdf" },
-    { "chapter": "Internet & Social Media",                "file": null },
-    { "chapter": "Cyber Security & Digital Citizenship",   "file": null },
-    { "chapter": "Programming Concept (Python)",           "file": null },
+    { "chapter": "Internet & Social Media",                "file": "assets/notes/grade9/Internet_and_Social_Media.pdf" },
+    { "chapter": "Cyber Security & Digital Citizenship",   "file": "assets/notes/grade9/Cybersecurity_and_Digital_Citizenship.pdf" },
+    { "chapter": "Programming Concept (Python)",           "file": "assets/notes/grade9/Programming_and_Python.pdf" },
     { "chapter": "MCQ's",                                   "file": "assets/notes/grade9/CS_MCQ.pdf" },
     { "chapter": "Short Question",                          "file": "assets/notes/grade9/CS_short_question.pdf" },
     { "chapter": "Long Question",                           "file": "assets/notes/grade9/CS_long_question.pdf" }
